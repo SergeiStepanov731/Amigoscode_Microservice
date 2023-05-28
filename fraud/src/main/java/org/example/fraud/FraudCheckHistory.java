@@ -1,4 +1,4 @@
-package org.example.customer;
+package org.example.fraud;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,30 +10,27 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
-
+import java.time.LocalDateTime;
 
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity(name = "Customer")
-@Table(name = "customer")
-public class Customer {
+@Entity
+public class FraudCheckHistory {
 
     @Id
     @SequenceGenerator(
-            name = "customer_id_sequence",
-            sequenceName = "customer_id_sequence",
+            name = "fraud_id_sequence",
+            sequenceName = "fraud_id_sequence",
             allocationSize = 1
     )
     @GeneratedValue(
             strategy = GenerationType.SEQUENCE,
-            generator = "customer_id_sequence"
+            generator = "fraud_id_sequence"
     )
     private Integer id;
-    private String firstName;
-    private String lastName;
-    private String email;
-
+    private Integer customerId;
+    private Boolean isFraudster;
+    private LocalDateTime createdAt;
 }
