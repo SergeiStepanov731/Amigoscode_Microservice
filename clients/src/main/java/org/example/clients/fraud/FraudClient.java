@@ -11,6 +11,4 @@ public interface FraudClient {
      FraudCheckResponse isFraudster(
              @PathVariable("customerId") Integer customerId);
 
-
-
 }

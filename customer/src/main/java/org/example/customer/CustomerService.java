@@ -36,7 +36,7 @@ public record CustomerService(
                 new NotificationRequest(
                         customer.getId(),
                         customer.getEmail(),
-                        String.format("Hi %s, welcome to microservice", customer.getFirstName())
+                        String.format("Hi %s, welcome to microservice ", customer.getFirstName())
                 )
         );
 
