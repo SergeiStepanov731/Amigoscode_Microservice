@@ -1,0 +1,4 @@
+org\example\clients\fraud\FraudClient.class
+org\example\clients\notification\NotificationRequest.class
+org\example\clients\fraud\FraudCheckResponse.class
+org\example\clients\notification\NotificationClient.class

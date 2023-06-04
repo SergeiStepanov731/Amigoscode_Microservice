@@ -1,0 +1,7 @@
+S:\jdk-17.0.2+8\amigoscode_microservice\notification\src\main\java\org\example\notification\NotificationController.java
+S:\jdk-17.0.2+8\amigoscode_microservice\notification\src\main\java\org\example\notification\NotificationService.java
+S:\jdk-17.0.2+8\amigoscode_microservice\notification\src\main\java\org\example\notification\NotificationApplication.java
+S:\jdk-17.0.2+8\amigoscode_microservice\notification\src\main\java\org\example\notification\Notification.java
+S:\jdk-17.0.2+8\amigoscode_microservice\notification\src\main\java\org\example\notification\NotificationRepository.java
+S:\jdk-17.0.2+8\amigoscode_microservice\notification\src\main\java\org\example\notification\rabbitmq\NotificationConsumer.java
+S:\jdk-17.0.2+8\amigoscode_microservice\notification\src\main\java\org\example\notification\NotificationConfig.java
